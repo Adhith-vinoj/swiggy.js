@@ -395,10 +395,31 @@ position: relative;
 }
 
 .wrapper{
-    margin: 16px;
+    margin-top: 16px;
+    padding: 16px;
+    border: 1px solid rgba(2, 6, 12, 0.1);
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
 }
 
-.wrapper-pad{
-    padding: 16px;
-    
+.wrapper h2{
+    margin: 12px 0px;
+    color: rgba(2, 6, 12, 0.6);  
+    font-family: boldwoff;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    line-height: 32px;
+}
+
+.wrapper p{
+    margin-top: 8px;
+    font-size: 16px;
+    color: rgba(2, 6, 12, 0.6);
+    letter-spacing: -0.4px;
+    line-height: 21px;
+    font-family: mediumwoff;
+
+
 }
