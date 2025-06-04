@@ -25,7 +25,7 @@
     box-sizing: border-box;
 }
 
-.main-web-section{
+.main-web-section {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -272,11 +272,19 @@
 
 
 .list-grid {
-    display: grid;
+    display:flex;
     gap: 16px;
-    grid-auto-flow: row;
+    flex-direction: column;
     align-items: center;
+    height: 100%;
+}
 
+.position-grid{
+    height: 100%;
+}
+
+.position-child{
+    height: 100%;
 }
 
 .position {
@@ -348,6 +356,9 @@
     line-height: 21px;
     font-size: 16px;
     letter-spacing: -0.4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
 
 }
@@ -550,11 +561,11 @@
 
 .list-sec {
     margin: 16px 0px;
-   
+
 }
 
-.list-sec span{
-    color:rgba(2, 6, 12, 0.6);
+.list-sec span {
+    color: rgba(2, 6, 12, 0.6);
     font-family: mediumwoff;
     font-size: 16px;
     font-weight: 200;
@@ -562,11 +573,11 @@
     letter-spacing: -0.4px;
 }
 
-.list-sec:last-child{
-margin-bottom: 0px;
+.list-sec:last-child {
+    margin-bottom: 0px;
 }
 
-.list-sec button{
+.list-sec button {
     background: transparent;
     border: 1px solid rgba(2, 6, 12, 0.15);
     height: 32px;
@@ -578,54 +589,54 @@ margin-bottom: 0px;
 }
 
 
-.final-footer-section{
-    background-color:rgb(240, 240, 245); 
+.final-footer-section {
+    background-color: rgb(240, 240, 245);
 }
 
-.final-footer{
+.final-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     min-height: 102px;
-    background-color:rgb(240, 240, 245);
+    background-color: rgb(240, 240, 245);
     border-top: 1px solid rgba(2, 6, 12, 0.75);
     margin: 0px 16px;
     padding: 24px 0px 32px;
 
 }
 
-.final-footer-section h1{
+.final-footer-section h1 {
     font-family: semibold;
     font-weight: 600;
     font-size: 14px;
     line-height: 18px;
     letter-spacing: -0.35px;
-    color:rgba(2, 6, 12, 0.75);
+    color: rgba(2, 6, 12, 0.75);
 }
 
-.social-media{
+.social-media {
     margin: 16px 0px;
     display: flex;
     flex-direction: row;
 
 }
 
-.social-media img{
+.social-media img {
     width: 18px;
     height: 18px;
     margin: auto 8px;
     object-fit: contain;
 }
 
-.img-container{
+.img-container {
     display: flex;
     margin-top: 12px;
     width: auto;
     height: 48px;
 }
 
-.img-container img{
+.img-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -646,46 +657,52 @@ z-index: 5;
 }  */
 
 
-.filter-nav{
+.filter-nav {
     position: fixed;
-     left: 0px;
-     right: 0px;
-     bottom: 0px;
-     opacity: 1;
-     background:rgb(255, 255, 255);
-    box-shadow:rgba(0, 0, 0, 0.1) 0px -4px 16px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 1;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -4px 16px;
     border-radius: 24px 24px 0px 0px;
     animation: 0.25s ease 0s 1 normal none running;
-    transform:translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
 }
 
-.filter-card{
-    border-bottom:1px solid rgba(2, 6, 12, 0.05);
-    padding:24px 12px 12px;
+.filter-card {
+    border-bottom: 1px solid rgba(2, 6, 12, 0.05);
+    padding: 24px 12px 12px;
 }
 
-.filter-card span{
+.filter-card span {
     font-family: mediumextra;
     font-size: 24px;
     font-weight: 800;
     line-height: 26px;
     letter-spacing: -0.6px;
-    color:rgba(2, 6, 12, 0.75);
+    color: rgba(2, 6, 12, 0.75);
 }
 
-.filter-halfcard{
+.filter-halfcard {
     height: 70vh;
-}
-
-.filter-halfcard ul{
-    width: 45%;
     position: relative;
+}
+
+.filter-halfcard ul {
+    width: 45%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
     border-right: 1px solid rgba(2, 6, 12, 0.05);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
 
 }
 
-.filter-halfcard li{
+.filter-halfcard li {
     width: 100%;
     display: flex;
     align-items: center;
@@ -693,12 +710,12 @@ z-index: 5;
     text-align: center;
 }
 
-.filter-halfcard span{
+.filter-halfcard span {
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    align-self:start;
+    align-self: start;
     padding: 18px 24px;
     font-family: semibold;
     font-size: 18px;
@@ -709,15 +726,22 @@ z-index: 5;
 }
 
 
-.close-btn{
+
+
+
+
+
+
+
+.close-btn {
     position: absolute;
     top: 19px;
     right: 19px;
     height: 27px;
     width: 27px;
     border-radius: 20px;
-    background:rgb(255, 255, 255);
-    box-shadow:rgba(0, 0, 0, 0.12) 0px 2px 6px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px;
     background: transparent;
     border: none;
     display: flex;
@@ -728,10 +752,82 @@ z-index: 5;
 
 
 
-@media screen and (min-width:961px){
-    .head-image{
-        height: 80px;
-        
+@media screen and (min-width:961px) {
+
+    .header-location {
+        display: none;
     }
 
+    .search-section {
+        display: none;
+    }
+
+    .header-cont {
+        margin: 0px;
+    }
+    .head-image {
+        height: 80px;
+        border-bottom: 1px solid rgba(2, 6, 12, 0.15);
+        padding: 0px calc(7% + 52px);
+
+    }
+
+
+    .head-image img{
+        margin-right: 12px;
+    }
+
+    .data-test {
+        height: 380px;
+        margin: 24px calc(7% + 52px) 40px;
+    }
+
+    .pop-sec {
+        margin: 0px calc(7% + 52px);
+    }
+
+    .sorting-list {
+        margin: 0px calc(7% + 52px);
+    }
+
+    .maincontent-sec {
+        margin-left: calc(7% + 52px);
+        margin-right: calc(7% + 52px);
+    }
+
+    .wrapper-main {
+        margin-left: calc(7% + 52px);
+        margin-right: calc(7% + 52px);
+    }
+
+    .order-container {
+        margin-left: calc(7% + 52px);
+        margin-right: calc(7% + 52px);
+
+    }
+
+
+    .footer-section {
+        grid-template-columns: 1fr 2fr 2fr 2fr 2fr;
+        column-gap: 5%;
+    }
+
+    .final-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 32px;
+        padding-bottom: calc(48px);
+
+    }
+
+    .img-container {
+        margin: auto 8px;
+        height: 64px;
+    }
+
+    .img-container img {
+        margin: 0px 12px;
+
+    }
 }
