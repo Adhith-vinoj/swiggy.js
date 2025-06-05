@@ -9,13 +9,12 @@
     },
     
     {
-        "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,e_grayscale/RX_THUMBNAIL/IMAGES/VENDOR/2025/2/13/642034ce-a081-403e-ae18-9319eb9cadb7_1036367.sss.jpg",
-        "name": "Jubilee Restaurant",
-        "Rating":4.3,
-        "Time": "100-110 mins",
-        "Type":"Biriyani,South Indian",
-        "Location":"Meepadi"
-
+        "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/f34657e4f398eec0e714971b58f8be69",
+        "name": "Chattiyum Chorum",
+        "Rating":4.5,
+        "Time": "55-60 mins",
+        "Type":"Indian, Chinese,Arabian,Snacks",
+        "Location":"Kalpetta"
     },
 
      {
@@ -27,17 +26,66 @@
         "Location":"Kalpetta"
 
     },
-    
+
     {
-        "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/86f52324ecee5fc94cbf63c4a568b672",
-        "name": "Chicking",
-        "Rating":4.3,
-        "Time": "65-70 mins",
-        "Type":"Snacks, Grill, Fast Food,Ameriacan, Pizzas,Mexican,Beverages",
+        "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2024/10/24/d73d6017-c5d4-4330-973a-5a43b7af5b1a_976362.jpg",
+        "name": "A Nostalgic Restaurant",
+        "Rating":4.4,
+        "Time": "40-45 mins",
+        "Type":"Biriyani, South Indian, Beverages, jucies, Snacks",
         "Location":"Kalpetta"
 
-    }
+    },
+    
+    
+    {
+        "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2025/1/22/8ba76c32-dc4f-4122-b6aa-2b7bde1c56ef_971062 (1).jpg",
+        "name": "Beycho Wayanad Restaurant And Cafe",
+        "Rating":4,
+        "Time": "55-60 mins",
+        "Type":"Continental, South Indian",
+        "Location":"Kalpetta"
 
+    },
+
+     {
+        "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2025/4/22/8638374c-b81b-4452-9e7f-d9111377b533_860220 (1).jpg",
+        "name": "Cafe itallo",
+        "Rating":4.5,
+        "Time": "45-50 mins",
+        "Type":"Snacks, Salads, Burgers, Desserts",
+        "Location":"Bathery"
+
+    },
+
+     {
+        "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/bd1e52033c44539e19615dfb3491c716",
+        "name": "Brindhavan Vegetarian Restaurant",
+        "Rating":4.7,
+        "Time": "35-40 mins",
+        "Type":"South Indian, Kerala, Snacks",
+        "foodType": "veg",
+        "Location":"Bathery"
+
+    } ,
+
+
+     {
+        "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2025/3/24/59a6c48a-e48d-485c-938b-34f0e9857c6e_53355.jpg",
+        "name": "Burger King",
+        "Rating":4.6,
+        "Time": "45-50 mins",
+        "Type":"Burgers,American",
+        "foodType": "non-veg",
+        "Location":"Vythiri"
+
+    } 
+
+
+
+     
+ 
+     
 
     
  
