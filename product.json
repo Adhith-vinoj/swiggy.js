@@ -78,8 +78,48 @@
         "Type":"Burgers,American",
         "foodType": "non-veg",
         "Location":"Vythiri"
+    },
 
-    } 
+      {
+        "img":"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2024/11/27/20c3189a-d932-43b4-82a3-35650f484e09_954965.jpg",
+        "name": "Swamy coffee house",
+        "Rating":4.6,
+        "Time": "30-35 mins",
+        "Type":"Kerala,South Indian",
+        "foodType": "veg",
+        "Location":"bathery"
+    },
+
+
+    {
+         
+        "img":"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2025/4/22/5bffdd31-1fa4-443d-afa1-f374cd4ca472_1023816.jpg",
+        "name": "Social Kitchen",
+        "Rating":4.7,
+        "Time": "35-40 mins",
+        "Type":" Chinese, Kerala,South Indian",
+        "foodType": "veg",
+        "Location":"Vythiri"
+    
+    },
+
+
+     {
+        "img":"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2025/1/20/fc920757-6d4c-471d-a689-c05d4f0f0edc_997145 (1).jpg",
+        "name": "Pizza Hub",
+        "Rating":3.9,
+        "Time": "65-70 mins",
+        "Type":"Pizzas",
+        "foodType": "veg",
+        "Location":"Kalpetta"
+     }
+    
+
+    
+    
+    
+
+
 
 
 
