@@ -275,13 +275,14 @@
     display: flex;
     gap: 16px;
     flex-direction: column;
+    justify-content: center;
     height: 100%;
 }
 
-/* 
-.position-grid{
+
+.position-grid {
     height: 100%;
-} */
+}
 
 .position-child {
     height: 100%;

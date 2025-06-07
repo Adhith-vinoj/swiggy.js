@@ -11,10 +11,10 @@ closingBtn.addEventListener("click", () => {
   filterSec.style.display = "none";
 });
 
-
+let data = [];
 let fetching = async () => {
   const res = await fetch("product.json");
-  const data = await res.json();
+  data = await res.json();
   mainFetch(data);
 };
 fetching();
@@ -84,4 +84,47 @@ let mainFetch = (items) => {
     listGrid.appendChild(lableItems);
   });
 };
+
+let filterRating = () => {
+  let filterAbove = data.filter((rating) => {
+    return rating.Rating >= 4.0;
+  });
+
+  mainFetch(filterAbove);
+};
+
+let filterType = () => {
+  let filterFood = data.filter((type) => {
+    return type.foodType === "veg";
+  });
+  mainFetch(filterFood);
+};
+
+let filterOffers = () => {
+  let filterSpecial = data.filter((list) => {
+    return list.Special === "offers";
+  });
+  mainFetch(filterSpecial);
+};
+
+
+let filterRate = ()=>{
+    let filterValue= data.filter((items) =>{
+        return items.price >=300 && items.price <= 600
+    })
+    mainFetch(filterValue);
+}
+
+
+let refineSec = document.querySelector("#active-rating");
+refineSec.addEventListener("click", filterRating);
+
+let refineType = document.querySelector("#active-class");
+refineType.addEventListener("click", filterType);
+
+let refineOffers = document.querySelector("#active-offers");
+refineOffers.addEventListener("click", filterOffers);
+
+let refineValues = document.querySelector("#active-rate")
+refineValues.addEventListener("click", filterRate)
 
