@@ -116,6 +116,13 @@ let filterRate = ()=>{
 }
 
 
+let filterLess = ()=>{
+    let filterLow = data.filter((items)=>{
+        return items.price <= 300
+    })
+    mainFetch(filterLow)
+}
+
 let refineSec = document.querySelector("#active-rating");
 refineSec.addEventListener("click", filterRating);
 
@@ -127,4 +134,7 @@ refineOffers.addEventListener("click", filterOffers);
 
 let refineValues = document.querySelector("#active-rate")
 refineValues.addEventListener("click", filterRate)
+
+let refineless = document.querySelector('#active-less')
+refineless.addEventListener("click", filterLess);
 
