@@ -138,3 +138,5 @@ refineValues.addEventListener("click", filterRate)
 let refineless = document.querySelector('#active-less')
 refineless.addEventListener("click", filterLess);
 
+
+
