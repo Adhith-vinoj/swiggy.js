@@ -93,6 +93,20 @@ let filterRating = () => {
   mainFetch(filterAbove);
 };
 
+let ratingAbove = ()=>{
+  let filter = data.filter((rating)=>{
+    return rating.Rating >= 4.5;
+  })
+  mainFetch(filter)
+}
+
+let ratingBelow = ()=>{
+  let filtering = data.filter((rating)=>{
+    return rating.Rating >= 3.5
+  })
+  mainFetch(filtering)
+}
+
 let filterType = () => {
   let filterFood = data.filter((type) => {
     return type.foodType === "veg";
@@ -137,6 +151,15 @@ refineValues.addEventListener("click", filterRate)
 
 let refineless = document.querySelector('#active-less')
 refineless.addEventListener("click", filterLess);
+
+let inputFilter = document.querySelector("#ratingBelow");
+inputFilter.addEventListener("click", filterRating )
+
+let ratingAboveRate = document.querySelector("#ratingAbove");
+ratingAboveRate.addEventListener("click", ratingAbove)
+
+let ratingBelowRate = document.querySelector("#ratingBelow");
+ratingBelowRate.addEventListener("click", ratingBelow)
 
 
 
