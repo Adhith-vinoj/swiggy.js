@@ -114,6 +114,17 @@ let filterType = () => {
   mainFetch(filterFood);
 };
 
+
+
+let filterNon = () => {
+  let filterNonVeg = data.filter((type) => {
+    return type.foodType === "non-veg";
+  });
+  mainFetch(filterNonVeg);
+};
+
+
+
 let filterOffers = () => {
   let filterSpecial = data.filter((list) => {
     return list.Special === "offers";
@@ -136,6 +147,28 @@ let filterLess = ()=>{
     })
     mainFetch(filterLow)
 }
+
+
+
+
+const rateingSection = document.querySelector('.rating-section')
+rateingSection.style.display = "none"
+
+const ratingItems = document.querySelector('#rating-items')
+ratingItems.addEventListener('click', () =>{
+ rateingSection.style.display = "flex";
+ foodSection.style.display = "none";
+ 
+})
+
+
+const selectItems = document.getElementById('select-type');
+const foodSection = document.querySelector('.food-section')
+selectItems.addEventListener('click', ()=>{
+  rateingSection.style.display = "none"
+  foodSection.style.display = "flex"
+})
+
 
 let refineSec = document.querySelector("#active-rating");
 refineSec.addEventListener("click", filterRating);
@@ -161,5 +194,8 @@ ratingAboveRate.addEventListener("click", ratingAbove)
 let ratingBelowRate = document.querySelector("#ratingBelow");
 ratingBelowRate.addEventListener("click", ratingBelow)
 
+let radioVeg = document.getElementById("radio-veg");
+radioVeg.addEventListener('click', filterType)
 
-
+let radioNonVeg = document.getElementById("radio-nonVeg");
+radioNonVeg.addEventListener('click', filterNon)
