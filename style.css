@@ -685,7 +685,7 @@
     display: flex;
     flex-direction: column;
     border-right: 1px solid rgba(2, 6, 12, 0.05);
-   
+
 }
 
 .filter-halfcard li {
@@ -714,11 +714,12 @@
 
 
 
-.inside-content{
+.inside-content {
     padding: 0px 13px;
     width: 50%;
 }
-.filter{
+
+.filter {
     padding: 16px 0px;
     color: rgba(2, 6, 12, 0.6);
     letter-spacing: -0.35px;
@@ -728,79 +729,107 @@
     font-family: mediumwoff;
 }
 
-.rating-section{
+.rating-section {
     display: flex;
     flex-direction: column;
     gap: 16px;
     align-items: flex-start;
 }
 
-.rating-section div{
+.rating-section div {
     display: flex;
     gap: 10px;
 }
 
 
 
-.rating-section input{
+.rating-section input {
     width: 16px;
     height: 17px;
     cursor: pointer;
 }
 
 
-.rating-section h1{
+.rating-section h1 {
     font-family: mediumwoff;
-    font-size:16px;
-    color:rgba(2, 6, 12, 0.6);
+    font-size: 16px;
+    color: rgba(2, 6, 12, 0.6);
     font-weight: 200;
     font-size: 16px;
     letter-spacing: -0.4px;
 }
 
 
-.food-section{
+.food-section {
     display: flex;
     flex-direction: column;
     gap: 16px;
     align-items: flex-start;
 }
 
-.food-section div{
+.food-section div {
     display: flex;
     gap: 10px;
 }
 
 
 
-.food-section input{
+.food-section input {
     width: 16px;
     height: 17px;
     cursor: pointer;
 }
 
 
-.food-section h1{
+.food-section h1 {
     font-family: mediumwoff;
-    font-size:16px;
-    color:rgba(2, 6, 12, 0.6);
+    font-size: 16px;
+    color: rgba(2, 6, 12, 0.6);
     font-weight: 200;
     font-size: 16px;
     letter-spacing: -0.4px;
 }
 
 
+.cuisines-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.cuisines-section div {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.cuisines-section input {
+    width: 16px;
+    height: 17px;
+    cursor: pointer;
+}
+
+
+.cuisines-section h1 {
+    font-family: mediumwoff;
+    font-size: 16px;
+    color: rgba(2, 6, 12, 0.6);
+    font-weight: 200;
+    font-size: 16px;
+    letter-spacing: -0.4px;
+}
 
 
 
 .close-btn {
     position: absolute;
-    top: 19px;
+    top: -43px;
     right: 19px;
     height: 27px;
     width: 27px;
     border-radius: 20px;
-    background: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px;
     background: transparent;
     border: none;
@@ -850,7 +879,7 @@
     }
 
 
-    .head-image{
+    .head-image {
         width: 100%;
     }
 
@@ -989,9 +1018,6 @@
         margin: 0px 12px;
 
     }
-
-
-
 }
 
 @media screen and (min-width:1024px) {
@@ -1006,9 +1032,8 @@
     }
 }
 
-
 @media screen and (min-width:1400px) {
-    .restaurant-list{
+    .restaurant-list {
         grid-template-columns: repeat(4, 1fr);
         gap: 32px;
     }

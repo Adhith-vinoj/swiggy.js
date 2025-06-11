@@ -148,26 +148,44 @@ let filterLess = ()=>{
     mainFetch(filterLow)
 }
 
-
+let typeItems =()=>{
+  let filterFoodItems = data.filter((items) =>{
+    return items.cuisiness === "Biriyani"
+  })
+  mainFetch(filterFoodItems)
+}
 
 
 const rateingSection = document.querySelector('.rating-section')
 rateingSection.style.display = "none"
 
+
 const ratingItems = document.querySelector('#rating-items')
 ratingItems.addEventListener('click', () =>{
  rateingSection.style.display = "flex";
  foodSection.style.display = "none";
+ cuisinesSection.style.display = "none";
  
 })
-
 
 const selectItems = document.getElementById('select-type');
 const foodSection = document.querySelector('.food-section')
 selectItems.addEventListener('click', ()=>{
   rateingSection.style.display = "none"
   foodSection.style.display = "flex"
+  cuisinesSection.style.display = "none"
 })
+
+const selectlists = document.getElementById('select-items');
+const cuisinesSection = document.querySelector('.cuisines-section')
+selectlists.addEventListener('click', ()=>{
+  foodSection.style.display = "none"
+  cuisinesSection.style.display = "flex"
+  rateingSection.style.display = "none"
+
+})
+
+foodSection.style.display = "none"
 
 
 let refineSec = document.querySelector("#active-rating");
@@ -187,7 +205,7 @@ refineless.addEventListener("click", filterLess);
 
 let inputFilter = document.querySelector("#ratingBelow");
 inputFilter.addEventListener("click", filterRating )
-
+ 
 let ratingAboveRate = document.querySelector("#ratingAbove");
 ratingAboveRate.addEventListener("click", ratingAbove)
 
@@ -198,4 +216,9 @@ let radioVeg = document.getElementById("radio-veg");
 radioVeg.addEventListener('click', filterType)
 
 let radioNonVeg = document.getElementById("radio-nonVeg");
-radioNonVeg.addEventListener('click', filterNon)
+radioNonVeg.addEventListener('click', filterNon);
+
+let checkItems = document.getElementById("check-items");
+checkItems.addEventListener('click', typeItems);
+
+

@@ -1,127 +1,138 @@
 [
-    {
-        "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/vkib8fk9lvcajov7akke",
-        "name": "Burger Mentor",
-        "Rating": 4.1,
-        "Time": "70-75 mins",
-        "Type": "Burgers, Rolls & Wraps, Fast Food, juices, Arabian, pizza",
-        "foodType": "non-veg",
-        "Location": "Kalpetta",
-        "price": 200
-    },
-    {
-        "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/f34657e4f398eec0e714971b58f8be69",
-        "name": "Chattiyum Chorum",
-        "Rating": 4.5,
-        "Time": "55-60 mins",
-        "Type": "Indian, Chinese,Arabian,Snacks",
-        "foodType": "non-veg",
-        "Location": "Kalpetta",
-        "price": 570
-    },
-    {
-        "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/86f52324ecee5fc94cbf63c4a568b672",
-        "name": "Chicking",
-        "Rating": 4.3,
-        "Time": "65-70 mins",
-        "Type": "Snacks, Grill, Fast Food,Ameriacan, Pizzas,Mexican,Beverages",
-        "foodType": "non-veg",
-        "Location": "Kalpetta",
-        "price": 600
-    },
-    {
-        "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2024/10/24/d73d6017-c5d4-4330-973a-5a43b7af5b1a_976362.jpg",
-        "name": "A Nostalgic Restaurant",
-        "Rating": 4.4,
-        "Time": "40-45 mins",
-        "Type": "Biriyani, South Indian, Beverages, jucies, Snacks",
-        "foodType": "non-veg",
-        "Location": "Kalpetta",
-        "price": 150,
-        "Special":"offers"
-    },
-    {
-        "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2025/1/22/8ba76c32-dc4f-4122-b6aa-2b7bde1c56ef_971062 (1).jpg",
-        "name": "Beycho Wayanad Restaurant And Cafe",
-        "Rating": 4,
-        "Time": "55-60 mins",
-        "Type": "Continental, South Indian",
-        "foodType": "non-veg",
-        "Location": "Kalpetta",
-        "price": 600
-    },
-    {
-        "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2025/4/22/8638374c-b81b-4452-9e7f-d9111377b533_860220 (1).jpg",
-        "name": "Cafe itallo",
-        "Rating": 4.5,
-        "Time": "45-50 mins",
-        "Type": "Snacks, Salads, Burgers, Desserts",
-        "foodType": "non-veg",
-        "Location": "Bathery",
-        "price": 500
-    },
-    {
-        "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/bd1e52033c44539e19615dfb3491c716",
-        "name": "Brindhavan Vegetarian Restaurant",
-        "Rating": 4.7,
-        "Time": "35-40 mins",
-        "Type": "South Indian, Kerala, Snacks",
-        "foodType": "veg",
-        "Location": "Bathery",
-        "price": 270,
-        "Special": "offers"
-    },
-    {
-        "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2025/3/24/59a6c48a-e48d-485c-938b-34f0e9857c6e_53355.jpg",
-        "name": "Burger King",
-        "Rating": 4.6,
-        "Time": "45-50 mins",
-        "Type": "Burgers,American",
-        "foodType": "non-veg",
-        "Location": "Vythiri",
-        "price": 350
-    },
-    {
-        "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2024/11/27/20c3189a-d932-43b4-82a3-35650f484e09_954965.jpg",
-        "name": "Swamy coffee house",
-        "Rating": 4.6,
-        "Time": "30-35 mins",
-        "Type": "Kerala,South Indian",
-        "foodType": "veg",
-        "Location": "bathery",
-        "price": 200,
-        "Special": "offers"
-    },
-    {
-        "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2025/4/22/5bffdd31-1fa4-443d-afa1-f374cd4ca472_1023816.jpg",
-        "name": "Social Kitchen",
-        "Rating": 4.7,
-        "Time": "35-40 mins",
-        "Type": " Chinese, Kerala,South Indian",
-        "foodType": "veg",
-        "Location": "Vythiri",
-        "price": 250
-    },
-    {
-        "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2025/1/20/fc920757-6d4c-471d-a689-c05d4f0f0edc_997145 (1).jpg",
-        "name": "Pizza Hub",
-        "Rating": 3.9,
-        "Time": "65-70 mins",
-        "Type": "Pizzas",
-        "foodType": "non-veg",
-        "Location": "Kalpetta",
-        "price": 300
-    },
+  {
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/vkib8fk9lvcajov7akke",
+    "name": "Burger Mentor",
+    "Rating": 4.1,
+    "Time": "70-75 mins",
+    "Type": "Burgers, Rolls & Wraps, Fast Food, juices, Arabian, pizza",
+    "foodType": "non-veg",
+    "Location": "Kalpetta",
+    "price": 200
+  },
+  {
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/f34657e4f398eec0e714971b58f8be69",
+    "name": "Chattiyum Chorum",
+    "Rating": 4.5,
+    "Time": "55-60 mins",
+    "Type": "Indian, Chinese,Arabian,Snacks",
+    "foodType": "non-veg",
+    "Location": "Kalpetta",
+    "price": 570
+  },
+  {
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/86f52324ecee5fc94cbf63c4a568b672",
+    "name": "Chicking",
+    "Rating": 4.3,
+    "Time": "65-70 mins",
+    "Type": "Snacks, Grill, Fast Food,Ameriacan, Pizzas,Mexican,Beverages",
+    "foodType": "non-veg",
+    "Location": "Kalpetta",
+    "price": 600
+  },
+  {
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2024/10/24/d73d6017-c5d4-4330-973a-5a43b7af5b1a_976362.jpg",
+    "name": "A Nostalgic Restaurant",
+    "Rating": 4.4,
+    "Time": "40-45 mins",
+    "Type": "Biriyani, South Indian, Beverages, jucies, Snacks",
+    "foodType": "non-veg",
+    "Location": "Kalpetta",
+    "price": 150,
+    "cuisiness": "Biriyani",
+    "Special": "offers"
+  },
+  {
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2025/1/22/8ba76c32-dc4f-4122-b6aa-2b7bde1c56ef_971062 (1).jpg",
+    "name": "Beycho Wayanad Restaurant And Cafe",
+    "Rating": 4,
+    "Time": "55-60 mins",
+    "Type": "Continental, South Indian",
+    "foodType": "non-veg",
+    "Location": "Kalpetta",
+    "price": 600
+  },
+  {
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2025/4/22/8638374c-b81b-4452-9e7f-d9111377b533_860220 (1).jpg",
+    "name": "Cafe itallo",
+    "Rating": 4.5,
+    "Time": "45-50 mins",
+    "Type": "Snacks, Salads, Burgers, Desserts",
+    "foodType": "non-veg",
+    "Location": "Bathery",
+    "price": 500
+  },
+  {
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/bd1e52033c44539e19615dfb3491c716",
+    "name": "Brindhavan Vegetarian Restaurant",
+    "Rating": 4.7,
+    "Time": "35-40 mins",
+    "Type": "South Indian, Kerala, Snacks",
+    "foodType": "veg",
+    "Location": "Bathery",
+    "price": 270,
+    "Special": "offers"
+  },
+  {
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2025/3/24/59a6c48a-e48d-485c-938b-34f0e9857c6e_53355.jpg",
+    "name": "Burger King",
+    "Rating": 4.6,
+    "Time": "45-50 mins",
+    "Type": "Burgers,American",
+    "foodType": "non-veg",
+    "Location": "Vythiri",
+    "price": 350
+  },
+  {
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2024/11/27/20c3189a-d932-43b4-82a3-35650f484e09_954965.jpg",
+    "name": "Swamy coffee house",
+    "Rating": 4.6,
+    "Time": "30-35 mins",
+    "Type": "Kerala,South Indian",
+    "foodType": "veg",
+    "Location": "bathery",
+    "price": 200,
+    "Special": "offers"
+  },
+  {
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2025/4/22/5bffdd31-1fa4-443d-afa1-f374cd4ca472_1023816.jpg",
+    "name": "Social Kitchen",
+    "Rating": 4.7,
+    "Time": "35-40 mins",
+    "Type": " Chinese, Kerala,South Indian",
+    "foodType": "veg",
+    "Location": "Vythiri",
+    "price": 250
+  },
+  {
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2025/1/20/fc920757-6d4c-471d-a689-c05d4f0f0edc_997145 (1).jpg",
+    "name": "Pizza Hub",
+    "Rating": 3.9,
+    "Time": "65-70 mins",
+    "Type": "Pizzas",
+    "foodType": "non-veg",
+    "Location": "Kalpetta",
+    "price": 300
+  },
 
-     {
+  {
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2025/3/13/758e1d24-5877-47ad-a254-3b98a50f86fc_1061414.jpg",
+    "name": "Wilton Resturant",
+    "Rating": 4.7,
+    "Time": "60-65 mins",
+    "Type": "Chinese, Biriyani, South Indian, Arabian, Beverages",
+    "foodType": "non-veg",
+    "Location": "Sultan bathery",
+    "price": 700
+  },
 
-        "img":"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2025/3/13/758e1d24-5877-47ad-a254-3b98a50f86fc_1061414.jpg",
-        "name": "Wilton Resturant",
-        "Rating": 4.7,
-        "Time": "60-65 mins",
-        "Type": "Chinese, Biriyani, South Indian, Arabian, Beverages",
-        "foodType": "non-veg",
-        "Location": "sultan bathery",
-        "price": 700
-    }
+  {
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2025/5/5/fa68a12e-1d75-4ed8-919a-fd56286313a8_960826.jpg",
+    "name": "Lazza Ice Cream",
+    "Rating": 4.6,
+    "Time": "20-25 mins",
+    "Type": "Ice Cream, Desserts, Cafe",
+    "foodType": "sweet",
+    "Location": "Sultan bathery",
+    "price": 170
+  }
 ]
