@@ -49,6 +49,7 @@
     "Type": "Continental, South Indian",
     "foodType": "non-veg",
     "Location": "Kalpetta",
+    "cuisiness": "Pizza",
     "price": 600
   },
   {
@@ -111,9 +112,9 @@
     "Type": "Pizzas",
     "foodType": "non-veg",
     "Location": "Kalpetta",
+    "cuisiness": "Pizza",
     "price": 300
   },
-
   {
     "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2025/3/13/758e1d24-5877-47ad-a254-3b98a50f86fc_1061414.jpg",
     "name": "Wilton Resturant",
@@ -124,7 +125,6 @@
     "Location": "Sultan bathery",
     "price": 700
   },
-
   {
     "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2025/5/5/fa68a12e-1d75-4ed8-919a-fd56286313a8_960826.jpg",
     "name": "Lazza Ice Cream",

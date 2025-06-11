@@ -143,8 +143,6 @@
     top: 16px;
     right: 0px;
     width: 32px;
-
-
 }
 
 .prof-sec svg {
@@ -153,7 +151,7 @@
 }
 
 .style-wrapper {
-    margin-top: 16px;
+    margin-top: 24px;
 }
 
 .data-test {
@@ -820,7 +818,6 @@
     font-size: 16px;
     letter-spacing: -0.4px;
 }
-
 
 
 .close-btn {
