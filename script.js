@@ -205,7 +205,7 @@ inputFilter.addEventListener("click", filterRating);
 let ratingAboveRate = document.querySelector("#ratingAbove");
 ratingAboveRate.addEventListener("click", ratingAbove);
 
-let ratingBelowRate = document.querySelector("#ratingBelow");
+let ratingBelowRate = document.querySelector("#ratingBelow"); 
 ratingBelowRate.addEventListener("click", ratingBelow);
 
 let radioVeg = document.getElementById("radio-veg");
