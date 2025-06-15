@@ -758,7 +758,6 @@
     letter-spacing: -0.4px;
 }
 
-
 .food-section {
     display: flex;
     flex-direction: column;
@@ -1032,7 +1031,7 @@
 
 @media screen and (min-width:1400px) {
     .restaurant-list {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 32px;
     }
 }
