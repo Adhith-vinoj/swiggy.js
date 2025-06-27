@@ -348,7 +348,7 @@
     display: grid;
     align-items: center;
     margin-top: 2px;
-    gap: 3px;
+    gap: 4px;
 }
 
 .sw-rest span {
